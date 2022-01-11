@@ -1,13 +1,11 @@
 ---
 id: fIaQokEs2DykNUiTudcYU
-title: UC-Charger
+title: Scénario de Charger
 desc: ''
-updated: 1639645765223
+updated: 1641902537952
 created: 1638368017338
 ---
 
-# Scénario UC Charger la batterie
- 
 ## Cas nominal 
 
 |Acteur|Système|

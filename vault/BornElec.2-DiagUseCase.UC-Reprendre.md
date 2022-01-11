@@ -1,12 +1,10 @@
 ---
 id: AgQvgiDr21M23TjwZMmJq
-title: UC-Reprendre
+title: Scénario de Reprendre
 desc: ''
-updated: 1640714522701
+updated: 1641902739895
 created: 1638368034287
 ---
-
-# Scénario UC Reprendre
 
 ## Cas nominal (sans interruption)
 

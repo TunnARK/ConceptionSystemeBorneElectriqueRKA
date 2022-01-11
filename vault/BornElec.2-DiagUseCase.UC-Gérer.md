@@ -1,8 +1,8 @@
 ---
 id: 3H7c2A8G4FZkApivouiWv
-title: Scénario UC Gérer la base de données
+title: Scénario de Gérer
 desc: ''
-updated: 1640784787890
+updated: 1641902618967
 created: 1638368052227
 ---
 

@@ -1,12 +1,10 @@
 ---
 id: LdV9ySi0BlpmkgjqWjWUg
-title: 1-PhaseAnalyse
+title: 1- Phase d'Analyse
 desc: ''
-updated: 1639574932322
+updated: 1641904075977
 created: 1636961049898
 ---
-
-# 1-Phase d'Analyse
 
 ## Contexte
 
@@ -42,3 +40,8 @@ Les fonctions principales du système sont les suivantes :
 Le système devra respecter les contraintes suivantes :
 - Garantir la sécurité des usagers et du personnel via le respect des modes de charges et des normes de constructions
 - Garantir la sécurité du véhicule (par exemple pas de déconnexion de prise quand AC fermé)
+
+## Hyperliens
+
+Suivant : 
+- [[Scénarios des Use Cases|BornElec.2-DiagUseCase]]

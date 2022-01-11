@@ -1,12 +1,10 @@
 ---
 id: GvGzqZlo36WrCiLhz4swq
-title: 2-DiagUseCase
+title: 2- Diagramme des Use Cases
 desc: ''
-updated: 1640697288109
+updated: 1641904026515
 created: 1636961345726
 ---
-
-# 2- Diagramme des Use Cases
 
 ## Contexte
 
@@ -28,10 +26,17 @@ Dans le cadre de ce mini-projet, nous n'allons pas aborder la partie **UC Config
 
 ![](/assets/images/DiagUseCase.png)
 
-## Spécifications des UC
+## Scénario des UC
 
-Liens vers les détails de :
-- [[UC Recharger le véhicule|BornElec.2-DiagUseCase.UC-Recharger]]
-- [[UC Charger la batterie|BornElec.2-DiagUseCase.UC-Charger]]
-- [[UC Reprendre le véhicule|BornElec.2-DiagUseCase.UC-Reprendre]]
-- [[UC Gérer la base données|BornElec.2-DiagUseCase.UC-Gérer]]
+- [[Scénario de Recharger|BornElec.2-DiagUseCase.UC-Recharger]]
+- [[Scénario de Charger|BornElec.2-DiagUseCase.UC-Charger]]
+- [[Scénario de Reprendre|BornElec.2-DiagUseCase.UC-Reprendre]]
+- [[Scénario de Gérer|BornElec.2-DiagUseCase.UC-Gérer]]
+
+## Hyperliens
+ 
+Retour :
+- [[Phase d'Analyse|BornElec.1-PhaseAnalyse]]
+
+Suivant : 
+- [[Séquences des Use Cases|BornElec.3-DiagSequences]]
