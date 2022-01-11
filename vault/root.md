@@ -4,7 +4,7 @@ title: Mini-Projet de Conception Système
 desc: ''
 updated: 1641902023050
 created: 1631901573363
-visibility: private
+published: false
 ---
 
 # Résumé
