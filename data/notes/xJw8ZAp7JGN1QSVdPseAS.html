@@ -1,0 +1,35 @@
+<h1 id="7-contratstypes"><a aria-hidden="true" class="anchor-heading" href="#7-contratstypes"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>7-ContratsTypes</h1>
+<h1 id="contrat-type-boutons_charge"><a aria-hidden="true" class="anchor-heading" href="#contrat-type-boutons_charge"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Contrat type: boutons_charge()</h1>
+<h2 id="metadata"><a aria-hidden="true" class="anchor-heading" href="#metadata"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Metadata</h2>
+<h3 id="nom"><a aria-hidden="true" class="anchor-heading" href="#nom"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Nom</h3>
+<p>boutons_charge()</p>
+<h3 id="responsabilités"><a aria-hidden="true" class="anchor-heading" href="#responsabilités"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Responsabilités</h3>
+<p>retourne l’état du bouton de charge</p>
+<h3 id="type"><a aria-hidden="true" class="anchor-heading" href="#type"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Type</h3>
+<p>logiciel – interface – public/privé</p>
+<h3 id="références-croisées"><a aria-hidden="true" class="anchor-heading" href="#références-croisées"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Références croisées</h3>
+<p>U.C. recharger_vehicule</p>
+<h3 id="algorithme"><a aria-hidden="true" class="anchor-heading" href="#algorithme"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Algorithme</h3>
+<p>Le bouton de charge doit être réinitialisé par l’utilisateur après consultation. La méthode retourne l’état du bouton et réinitialise l’état à 0.</p>
+<h3 id="paramètres-entréessorties"><a aria-hidden="true" class="anchor-heading" href="#paramètres-entréessorties"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Paramètres Entrées/Sorties</h3>
+<ul>
+<li><strong>Sortie :</strong>
+0 relâché, 1 appuyé</li>
+<li><strong>Pré conditions :</strong>
+doit-être remis à zéro</li>
+<li><strong>Post conditions :</strong>
+retourne 1 si le bouton a été précédemment appuyé.</li>
+</ul>
+<h2 id="commentaires--cas-remarquables-"><a aria-hidden="true" class="anchor-heading" href="#commentaires--cas-remarquables-"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Commentaires / Cas remarquables :</h2>
+<ul>
+<li><em>generateursave-charger()</em> et <em>generateursave-deconnecter()</em>: liès à la MEF</li>
+<li><em>generateursave-mef()</em> : méthode privée pour gérer la MEF</li>
+<li><em>boutons-stop</em> et <em>boutons-charge</em> doivent être remis à zéro après lecture</li>
+<li><em>generateursave _generer_PWM</em> : prend en paramètre {OFF, DC, AC_1K, AC_CL} (<strong>Expliquer</strong>)</li>
+<li><em>Base_clients</em> : authentifier et reprise (pour vérifier que c’est bien le même client)</li>
+</ul>
+<hr>
+<h2 id="children"><a aria-hidden="true" class="anchor-heading" href="#children"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Children</h2>
+<ol>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/QOoAO1RXQusG3jibsuTue">BoutonCharge</a></li>
+</ol>

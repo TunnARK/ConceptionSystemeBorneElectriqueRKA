@@ -1,0 +1,185 @@
+<h1 id="scénario-de-charger"><a aria-hidden="true" class="anchor-heading" href="#scénario-de-charger"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Scénario de Charger</h1>
+<h2 id="cas-nominal"><a aria-hidden="true" class="anchor-heading" href="#cas-nominal"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Cas nominal</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Acteur</th><th align="left">Système</th></tr></thead><tbody><tr><td align="left"></td><td align="left">1. Le système met le <strong>voyant charge</strong> à rouge</td></tr><tr><td align="left"></td><td align="left">2. Le système dévérouille la <strong>trappe</strong> de la <strong>prise</strong></td></tr><tr><td align="left"></td><td align="left">3. Le système génère un <strong>signal contenu</strong> à 12V</td></tr><tr><td align="left">4. Le <em>client</em>  branche la <strong>prise</strong></td><td align="left"></td></tr><tr><td align="left">5. Le <em>véhicule</em> fait chuter la <strong>tension</strong> à 9V</td><td align="left"></td></tr><tr><td align="left"></td><td align="left">6. Le système met le <strong>voyant prise</strong> à vert</td></tr><tr><td align="left"></td><td align="left">7. Le système vérouille la <strong>trappe</strong></td></tr><tr><td align="left"></td><td align="left">8. Le système génère un <strong>signal PWM</strong> de 1kHz</td></tr><tr><td align="left">9. Le <em>véhicule</em> ferme le <strong>contacteur S2</strong></td><td align="left"></td></tr><tr><td align="left">10. Le <em>véhicule</em> fait chuter la <strong>tension</strong> à 6V</td><td align="left"></td></tr><tr><td align="left"></td><td align="left">11. Le système ferme le <strong>contacteur AC</strong></td></tr><tr><td align="left"></td><td align="left">12. Le système génère un <strong>signal PWM</strong> variable</td></tr><tr><td align="left">13. Le <em>véhicule</em> (i.e. la batterie) fait remonter progressivement la <strong>tension</strong> à 9V</td><td align="left"></td></tr><tr><td align="left"></td><td align="left">14. Le système ouvre le <strong>contacteur AC</strong></td></tr><tr><td align="left"></td><td align="left">15. Le système génère une tension continu</td></tr><tr><td align="left">16. Le <em>véhicule</em> ouvre le contacteur S2</td><td align="left"></td></tr><tr><td align="left"></td><td align="left">17. Le système met le <strong>voyant charge</strong> à vert</td></tr></tbody></table>
+<h2 id="variante-1--véhicule-déjà-chargée"><a aria-hidden="true" class="anchor-heading" href="#variante-1--véhicule-déjà-chargée"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Variante 1 : Véhicule déjà chargée</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="left">Acteur</th><th align="left">Système</th></tr></thead><tbody><tr><td align="left"></td><td align="left">1. Le système met le <strong>voyant charge</strong> à rouge</td></tr><tr><td align="left"></td><td align="left">2. Le système dévérouille la <strong>trappe</strong> de la <strong>prise</strong></td></tr><tr><td align="left"></td><td align="left">3. Le système génère un <strong>signal contenu</strong> à 12V</td></tr><tr><td align="left">4. Le <em>client</em>  branche la <strong>prise</strong></td><td align="left"></td></tr><tr><td align="left">5. Le <em>véhicule</em> fait chuter la <strong>tension</strong> à 9V</td><td align="left"></td></tr><tr><td align="left"></td><td align="left">6. Le système met le <strong>voyant prise</strong> à vert</td></tr><tr><td align="left"></td><td align="left">7. Le système vérouille la <strong>trappe</strong></td></tr><tr><td align="left"></td><td align="left">8. Le système génère un <strong>signal PWM</strong> de 1kHz</td></tr><tr><td align="left">9. Le <em>véhicule</em> ferme le <strong>contacteur S2</strong></td><td align="left"></td></tr><tr><td align="left">! 10. Le <em>véhicule</em> fait chuter la <strong>tension</strong> à <strong>9V</strong></td><td align="left"></td></tr><tr><td align="left"></td><td align="left"><del>11. Le système ferme le <strong>contacteur AC</strong></del></td></tr><tr><td align="left"></td><td align="left"><del>12. Le système génère un <strong>signal PWM</strong> variable</del></td></tr><tr><td align="left"><del>13. Le <em>véhicule</em> (i.e. la batterie) fait remonter progressivement la <strong>tension</strong> à 9V</del></td><td align="left"></td></tr><tr><td align="left"></td><td align="left">14. Le système ouvre le <strong>contacteur AC</strong></td></tr><tr><td align="left"></td><td align="left">15. Le système génère une tension continu</td></tr><tr><td align="left">16. Le <em>véhicule</em> ouvre le contacteur S2</td><td align="left"></td></tr><tr><td align="left"></td><td align="left">17. Le système met le <strong>voyant charge</strong> à vert</td></tr></tbody></table>
+<h2 id="hyperliens"><a aria-hidden="true" class="anchor-heading" href="#hyperliens"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hyperliens</h2>
+<p>Retour :</p>
+<ul>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/GvGzqZlo36WrCiLhz4swq">Diagramme des Use Cases</a></li>
+</ul>
+<p>Vers les autres scénarios :</p>
+<ul>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/ehm0Bhn9He4yQnHHK0mcl">UC Recharger le véhicule</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/AgQvgiDr21M23TjwZMmJq">UC Reprendre le véhicule</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/3H7c2A8G4FZkApivouiWv">UC Gérer la base de données</a></li>
+</ul>
+<p>Vers les diagrammes de séquences :</p>
+<ul>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/XeLCc5QepEaGvQioDQsfT">UC Recharger le véhicule</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/jx4ZVDrIXNy4W1R4PCMFI">UC Charger la batterie</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/hhi5W5T5hUezYBWOyZLSg">UC Reprendre le véhicule</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/Rp10x9v2wKduCbIKCb3TE">UC Gérer la base de données</a></li>
+</ul>
+<hr>
+<h2 id="backlinks"><a aria-hidden="true" class="anchor-heading" href="#backlinks"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Backlinks</h2>
+<ul>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/GvGzqZlo36WrCiLhz4swq">2- Diagramme des Use Cases</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/3H7c2A8G4FZkApivouiWv">Scénario de Gérer</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/ehm0Bhn9He4yQnHHK0mcl">Scénario Recharger</a></li>
+<li><a href="/ConceptionSystemeBorneElectriqueRKA/notes/AgQvgiDr21M23TjwZMmJq">Scénario de Reprendre</a></li>
+</ul>
